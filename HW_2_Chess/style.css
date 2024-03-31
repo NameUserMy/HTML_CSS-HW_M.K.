@@ -1,0 +1,34 @@
+.td1{
+
+    border: 1px rgb(82, 33, 0) solid;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(167, 79, 28);
+    text-align: center;
+}
+.td2{
+
+    border: 1px rgb(82, 33, 0) solid;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(168, 66, 19);
+   text-align: center;
+}
+
+table{
+    border: 3px rgb(82, 33, 0) solid;
+    border-collapse: collapse ;
+}
+img{
+
+    height: 65px;
+    width: 65px;
+}
+
+.player1{
+    cursor: url(./imsrc/player1.png), move;
+}
+
+.any{
+    cursor: url(./imsrc/player2.png), move;
+}
