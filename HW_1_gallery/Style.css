@@ -1,0 +1,31 @@
+.Section{
+background-color: rgb(53, 134, 240);
+text-align: center;
+height: 40px;
+}
+.forImage{
+text-align: center;
+background-color: antiquewhite;
+height: 150px;
+}
+
+body{
+
+  background-color: antiquewhite;
+}
+.star{
+
+    height: 10px;
+    width: 10px;
+}
+
+img{
+   height: 40px;
+    width: 40px;
+}
+
+.price{
+
+    font-size: 30px;
+    color: white;
+}
