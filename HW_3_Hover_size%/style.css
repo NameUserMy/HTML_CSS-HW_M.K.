@@ -1,0 +1,28 @@
+.yellowClass{
+    vertical-align: top;
+    background-color: yellow;
+    display: inline-block;
+    width: 33.3%;
+    height: 33.3%;
+    transition: 4000ms;
+}
+
+.blueClass{
+    vertical-align: top;
+    background-color: blue;
+    display: inline-block;
+    width: 33.3%;
+    height: 33.3%;
+    transition: 4000ms;
+}
+
+div:hover{
+    background-color: purple;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    margin: 0;
+}
