@@ -1,0 +1,143 @@
+html,body{
+
+height: 100%;
+margin: 0;
+}
+
+
+
+.content{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+
+.main{
+    
+    width: 500px;
+    height: 300px;
+    border: 1px rgb(75, 72, 72) solid;
+    
+}
+
+
+
+.main1{
+    
+    width: 500px;
+    height: 300px;
+    border: 1px rgb(75, 72, 72) solid;
+    flex-shrink: 3;
+}
+
+
+
+.diagramm{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 90%;
+}
+
+.myHeader{
+   
+    text-align: center;
+    height: 10%;
+    border: 1px rgb(75, 72, 72) solid;
+
+}
+
+.grafic1{
+    
+    width: 12%;
+    height: 150px;
+    background-color: rgb(221, 6, 24);
+    border: 1px rgb(75, 72, 72) solid;
+    color: black; 
+    font-size: 0.6em;
+    flex-shrink: 3;
+}
+
+
+.grafic2{
+    width: 12%;
+    height: 125px;
+    background-color: rgb(51, 218, 18);
+    border: 1px rgb(75, 72, 72) solid;
+    color: black; 
+    font-size: 0.6em;
+    flex-shrink: 6;
+
+}
+
+.grafic3{
+
+   
+    width: 60px;
+    height: 70px;
+    background-color: rgb(45, 29, 116);
+    border: 1px rgb(75, 72, 72) solid;
+    color: black; 
+    font-size: 0.6em;
+    flex-shrink: 1;
+}
+
+.grafic4{
+    width: 60px;
+    height: 83px;
+    background-color: rgb(223, 191, 14);
+    border: 1px rgb(75, 72, 72) solid;
+    color: black; 
+    font-size: 0.6em;
+    flex-shrink: 1;
+}
+
+.grafic5{
+    width: 60px;
+    height: 150px;
+    background-color: rgb(108, 155, 14);
+    border: 1px rgb(75, 72, 72) solid;
+    color: black; 
+    font-size: 0.6em;
+    flex-shrink: 1;
+}
+
+.flaxText{
+
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-content: space-around;
+}
+
+
+.images{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 90%;
+    overflow:auto ;
+}
+
+.images1{
+    
+    width:  130px;
+    height: 80px;
+    background-color: yellowgreen;
+    border: 1px rgb(75, 72, 72) solid;
+    flex-shrink: 3;
+    background-image: url("./imgsrc/pngwing.com.png");
+    background-size:contain ;
+    background-repeat: no-repeat;
+
+}
