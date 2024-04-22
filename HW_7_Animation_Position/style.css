@@ -1,0 +1,159 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(./imgsrc/home.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+
+.player{
+
+    background-image: url(./imgsrc/klipartz.com.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+     width: 10%;
+    height: 20%;
+    position: absolute;
+    left: 0%;
+    transition: 30000ms
+}
+
+.player:hover{
+
+    
+    left: 90%;
+
+}
+
+.Enamy{
+
+    background-image: url(./imgsrc/Enamy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+    width: 10%;
+    height: 20%;
+    transform: scaleX(-1);
+    
+}
+
+.posAbButtom{
+    position: absolute;
+    bottom: 0%;
+
+}
+
+.posLeftEnamy1{
+
+    left: 15%;
+}
+
+.posLeftEnamy2{
+
+    left: 45%;
+}
+
+.posLeftEnamy3{
+
+    left: 65%;
+}
+
+.pENone{
+
+    pointer-events: none;
+}
+
+.MoveEnamy1{
+    animation: 10s EnamyAnim linear infinite;
+
+}
+
+
+.MoveEnamy2{
+    animation: 5s EnamyAnim linear infinite;
+
+}
+
+.MoveEnamy3{
+    animation: 15s EnamyAnim linear infinite;
+
+}
+
+
+.StaticEnamy{
+    background-image: url(./imgsrc/staticEnamy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+    width: 5%;
+    height: 10%;
+   
+}
+
+.posStaticEnamy{
+ 
+    left: 33%;
+
+}
+
+.posStaticEnamy1{
+ 
+    left:77%;
+
+}
+
+@keyframes EnamyAnim{
+
+    0%{
+
+        bottom:0%;
+    }
+   
+    50%{
+
+        bottom:20%;
+    }
+
+}
+
+.finish{
+
+    background-image: url(./imgsrc/ActionFon1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-position: bottom;
+    width: 10%;
+    height: 20%;
+    position: absolute;
+    bottom: 0;
+    right: 0.5%;
+
+    animation: 10s FinishAnim linear infinite;
+}
+
+
+
+
+
+
+@keyframes FinishAnim{
+
+    0%{
+
+        background-image: url(./imgsrc/ActionFon1.png);
+    }
+   
+    50%{
+
+        background-image: url(./imgsrc/ActionFon2.png);
+    }
+
+}
